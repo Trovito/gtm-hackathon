@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "team": {
+    "name": "Trovito",
+    "members": ["Silvian Achim"]
+  },
+  "track": "custom",
+  "problem": "A B2B SaaS founder needs recurring customer pains mined from public Reddit comments with source evidence and confidence.",
+  "entry_skill": ".agents/skills/reddit-pain-signal-miner/SKILL.md",
+  "skills": [
+    {
+      "path": ".agents/skills/reddit-pain-signal-miner/SKILL.md",
+      "role": "Find recurring pains that the supplied SaaS can solve from anonymous Reddit comment evidence."
+    }
+  ],
+  "seed_prompt": "demo/seed-prompt.md",
+  "input": "demo/input/plausible",
+  "output": "demo/output/reddit-pain-report.md",
+  "evals": "demo/evals.md",
+  "run_sheet": "DEMO.md"
+}

@@ -1,0 +1,1 @@
+$reddit-pain-signal-miner Use only the local SaaS configuration and sanitized cached evidence at demo/input/plausible/ to produce demo/output/reddit-pain-report.md. Run the skill analyzer exactly once. Do not fetch URLs, request credentials, or perform a second analysis. Print the analyzer summary.
