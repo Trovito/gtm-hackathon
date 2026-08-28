@@ -6,9 +6,11 @@
 
 **Track:** Custom
 
-**Who has the problem:** A founder at ContaRom validating positioning for Romanian small businesses and accounting firms.
+**Who has the problem:** A founder at a SaaS company validating positioning.
 
-**The job this skill does:** It turns a prepared anonymous Romanian Reddit sample into ranked pains that ContaRom can credibly solve.
+**The generic job this skill does:** Given any SaaS prepared in the declared input schema, it ranks recurring Reddit pains and maps them to sourced product capabilities.
+
+**Representative demo input:** ContaRom, using anonymous excerpts from Romanian Reddit threads.
 
 **Boundary:** It never identifies, profiles, contacts, or scores a Reddit participant. It never treats the sample as market size.
 
@@ -21,7 +23,7 @@
 
 ## Show this, 25 seconds
 
-**Result:** The founder gets three message ready pains: expiring SPV invoices, the monthly document hunt across channels, and distrust of inbox access.
+**Result:** For the representative ContaRom input, the founder gets three message ready pains: expiring SPV invoices, the monthly document hunt across channels, and distrust of inbox access.
 
 **Evidence:** Each pain has six comments across two Romanian threads, anonymous evidence IDs, exact matched phrases, Reddit URLs, the ContaRom source, retrieval dates, and confidence.
 
@@ -37,6 +39,6 @@
 
 ## Close, 5 seconds
 
-**Reusable on:** Another prepared SaaS configuration and sanitized Apify comment export with the same schema, without changing the skill.
+**Reusable on:** Any other SaaS by replacing the sourced capability brief and sanitized Apify comment sample, without changing the skill or analyzer.
 
 **Material limitation:** Transparent phrase matching is fast and repeatable, but it can miss paraphrases and the selected Reddit sample is not a representative market survey.

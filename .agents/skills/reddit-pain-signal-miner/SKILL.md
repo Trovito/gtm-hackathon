@@ -1,6 +1,6 @@
 ---
 name: reddit-pain-signal-miner
-description: Produces a sourced SaaS pain report from a prepared anonymous Apify Reddit comment sample. Use when a founder or product marketer needs fast evidence for positioning or messaging.
+description: Produces a sourced pain report for any SaaS from its prepared capability brief and anonymous Apify Reddit comment sample. Use when a founder or product marketer needs fast evidence for positioning or messaging.
 ---
 
 # Reddit pain signal miner
