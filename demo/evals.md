@@ -9,7 +9,7 @@
 ## Run context
 
 - **Agent:** OpenAI Codex CLI 0.150.0 alpha 12.2 with `gpt-5.6-terra`, plus the skill's zero dependency Node 24 analyzer
-- **When:** Intended case completed 28 August 2026 at 18:32 Bucharest time. The two negative cases completed at 18:35
-- **Intended cold run:** 38.42 seconds
+- **When:** Optimized intended case completed 28 August 2026 at 19:02 Bucharest time. The two negative cases completed at 18:35
+- **Intended cold run:** 11.63 seconds
 - **Collection:** Apify actor `TwqHBuZZPHJxiQrTU` returned 69 records, including 66 comments. The committed sample contains 14 anonymous comments selected after privacy review
 - **Baseline without the skill:** Not run

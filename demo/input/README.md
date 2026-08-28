@@ -1,6 +1,6 @@
 # Input
 
-`plausible/saas.json` is the representative SaaS configuration. It contains sourced product capabilities, evidence thresholds, the Apify actor input, and the committed snapshot path.
+`plausible/saas.json` is the representative SaaS configuration. It contains sourced product capabilities, evidence thresholds, the Apify actor input, and the committed snapshot path. Collection is a preparation step and is not part of the timed demo.
 
 `plausible/reddit-comments.json` is a privacy reviewed sample from an Apify run completed on 28 August 2026. The actor returned 69 records, including 66 comments. The collector removed identity fields and unsafe records. Fourteen anonymous comments were retained for the demo.
 

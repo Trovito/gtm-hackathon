@@ -10,9 +10,9 @@ The committed demo input contains 14 anonymous comments. Twelve are intended evi
 
 ## Intended run
 
-At 18:32 Bucharest time, OpenAI Codex CLI 0.150.0 alpha 12.2 with `gpt-5.6-terra` received `demo/seed-prompt.md`.
+At 19:02 Bucharest time, OpenAI Codex CLI 0.150.0 alpha 12.2 with `gpt-5.6-terra` received `demo/seed-prompt.md`.
 
-The cold run completed in 38.42 seconds and invoked the analyzer exactly once.
+The cold run completed in 11.63 seconds and invoked the analyzer exactly once. It used only committed local input and made no network or Apify call.
 
 ```text
 OK inspected=14 included=12 excluded=2 themes=2
