@@ -1,20 +1,29 @@
 ---
 name: reddit-pain-signal-miner
-description: Produces a sourced pain report for any SaaS from its prepared capability brief and anonymous Apify Reddit comment sample. Use when a founder or product marketer needs fast evidence for positioning or messaging.
+description: Finds recurring pains that any SaaS can solve from public Reddit comments, starting from either a SaaS URL or a prepared evidence directory. Use when a founder or product marketer needs sourced positioning evidence.
 ---
 
 # Reddit pain signal miner
 
-## Input
+## Choose a mode
 
-Use the input directory named in the prompt. It must contain `saas.json` with sourced capabilities and thresholds, plus the anonymous comment snapshot declared by that configuration.
+1. If the prompt names a prepared input directory, use prepared mode.
+2. If the prompt supplies an HTTPS SaaS URL, use URL mode.
+3. If neither is present, ask for one and stop.
 
-## Steps
+## Prepared mode
 
 1. Run `node .agents/skills/reddit-pain-signal-miner/scripts/analyze.mjs <input-directory>/saas.json <output-path>` exactly once.
 2. Do not fetch URLs, search Reddit, call Apify, inspect unrelated files, or perform a second analysis.
 3. Treat a nonzero exit as a visible failure. Report the error and stop.
 4. Print the analyzer output unchanged.
+
+## URL mode
+
+1. Read `references/url-mode.md`.
+2. Follow every preparation, collection, privacy, and evidence step in that file.
+3. Store working data outside the repository unless the user explicitly requests a reviewed snapshot.
+4. Run the same analyzer on the resulting prepared input and print its output unchanged.
 
 ## Rules
 
@@ -26,4 +35,4 @@ Use the input directory named in the prompt. It must contain `saas.json` with so
 
 ## Done when
 
-The analyzer succeeds, the report exists at the requested path, and its summary is printed unchanged.
+The analyzer succeeds, the report exists at the requested path, all claims have sources and retrieval dates, and its summary is printed unchanged.

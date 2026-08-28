@@ -8,9 +8,9 @@
 
 **Who has the problem:** A founder at a SaaS company validating positioning.
 
-**The generic job this skill does:** Given any SaaS prepared in the declared input schema, it ranks recurring Reddit pains and maps them to sourced product capabilities.
+**The generic job this skill does:** Given any SaaS URL, it sources product capabilities, collects anonymous Reddit evidence through Apify, and ranks recurring pains the SaaS can solve.
 
-**Representative demo input:** contarom.com, using anonymous excerpts from Romanian Reddit threads.
+**Representative demo input:** contarom.com, using a reviewed cached sample from the same generic collection and analysis workflow.
 
 **Boundary:** It never identifies, profiles, contacts, or scores a Reddit participant. It never treats the sample as market size.
 
@@ -39,6 +39,6 @@
 
 ## Close, 5 seconds
 
-**Reusable on:** Any other SaaS by replacing the sourced capability brief and sanitized Apify comment sample, without changing the skill or analyzer.
+**Reusable on:** Any other public SaaS URL with internet and authenticated Apify access. Prepared evidence can use the same fast offline analysis mode shown here.
 
 **Material limitation:** Transparent phrase matching is fast and repeatable, but it can miss paraphrases and the selected Reddit sample is not a representative market survey.

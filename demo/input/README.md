@@ -13,3 +13,11 @@ To use another SaaS without changing the skill:
 5. Run `node .agents/skills/reddit-pain-signal-miner/scripts/analyze.mjs <config> <report> [snapshot]`.
 
 The collector accepts either `APIFY_TOKEN` or an authenticated Apify CLI. The analyzer needs only Node 24 and local files.
+
+For normal use outside the demo, invoke the skill with a public SaaS URL:
+
+```text
+Prepare and run $reddit-pain-signal-miner for https://example-saas.com.
+```
+
+The skill follows `.agents/skills/reddit-pain-signal-miner/references/url-mode.md`, keeps working data under `/tmp`, and returns either a sourced report or an honest insufficient evidence result.

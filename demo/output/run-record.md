@@ -25,6 +25,8 @@ The resulting artifact is `demo/output/reddit-pain-report.md`.
 
 At 19:37 Bucharest time, the display name was normalized to `contarom.com` and the deterministic analyzer regenerated the fallback. Evidence, counts, classifications, and confidence did not change.
 
+The generic URL workflow is documented separately in the skill reference. The judged seed explicitly selects prepared mode, so URL fetching and Apify collection are not part of the timed run.
+
 ## Negative cases
 
 At 19:16 Bucharest time, the same Codex version invoked the analyzer once for each negative case.
