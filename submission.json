@@ -5,7 +5,7 @@
     "members": ["Silvian Achim"]
   },
   "track": "custom",
-  "problem": "A B2B SaaS founder needs recurring customer pains mined from public Reddit comments with source evidence and confidence.",
+  "problem": "A Romanian accounting SaaS founder needs recurring customer pains mined from public Reddit comments with source evidence and confidence.",
   "entry_skill": ".agents/skills/reddit-pain-signal-miner/SKILL.md",
   "skills": [
     {
@@ -14,7 +14,7 @@
     }
   ],
   "seed_prompt": "demo/seed-prompt.md",
-  "input": "demo/input/plausible",
+  "input": "demo/input/contarom",
   "output": "demo/output/reddit-pain-report.md",
   "evals": "demo/evals.md",
   "run_sheet": "DEMO.md"

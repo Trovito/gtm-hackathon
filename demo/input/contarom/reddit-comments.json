@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "collection": {
+    "status": "cached",
+    "provider": "Apify",
+    "actor_id": "TwqHBuZZPHJxiQrTU",
+    "actor_url": "https://apify.com/fatihtahta/reddit-scraper-search-fast",
+    "retrieved_at": "2026-08-28T16:12:16.552Z",
+    "authors_removed": true,
+    "privacy_review_required_before_commit": false,
+    "records_received": 123,
+    "records_excluded_automatically": 18,
+    "eligible_records_not_sampled": 0,
+    "privacy_reviewed_at": "2026-08-28T19:14:07+03:00",
+    "privacy_note": "Automated redaction and manual review removed authors, profile fields, contact details, and unsafe records before this snapshot was committed.",
+    "records_screened_for_demo": 99,
+    "records_selected_for_demo": 21,
+    "selection_method": "Retained 18 comments supporting three pains across independent Romanian threads and 3 contrast records for exclusion testing."
+  },
+  "comments": [
+    {
+      "evidence_id": "C015",
+      "text": "E obligat sa arhiveze documentele contabile timp de minim 5 ani. Are nevoie de factura in caz de control. Si nu orice factura, trebuie sa fie obligatoriu zip-ul cu factura + semnatura ANAF.",
+      "thread_url": "https://www.reddit.com/r/RoFiscalitate2/comments/1tjb2fl/am_uitat_sa_descarc_factura_din_spv/",
+      "subreddit": "RoFiscalitate2",
+      "created_at": "2026-05-21T07:42:15.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.340Z",
+      "score_at_collection": 5
+    },
+    {
+      "evidence_id": "C027",
+      "text": "ca nu factura ii trebuie ci dovada ca au trecut-o prin efactura. si aia dispare dupa 60 de zile din mirificul sistem. daca ai integrata e factura in diverse sisteme de facturare aia s-au prins ca e absurd si le salveaza ei pt tine pt situatii de astea. daca nu, si uiti ca op sa salvezi zipul din punctul de vedere al anaf nu te-ai asigurat ca platesti o factura care a trecut prin efactura. si ca sa se republice la ei tre o cerere care dureaza nush cat pana o pun iar pe serverele live.",
+      "thread_url": "https://www.reddit.com/r/RoFiscalitate2/comments/1tjb2fl/am_uitat_sa_descarc_factura_din_spv/",
+      "subreddit": "RoFiscalitate2",
+      "created_at": "2026-05-21T17:13:08.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.340Z",
+      "score_at_collection": 2
+    },
+    {
+      "evidence_id": "C033",
+      "text": "Deci anaf primeste un document, il tine 60 de zile, il sterge si dupa ti-l cere? Kafka este mandru.",
+      "thread_url": "https://www.reddit.com/r/RoFiscalitate2/comments/1tjb2fl/am_uitat_sa_descarc_factura_din_spv/",
+      "subreddit": "RoFiscalitate2",
+      "created_at": "2026-05-21T17:28:43.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.340Z",
+      "score_at_collection": 8
+    },
+    {
+      "evidence_id": "C051",
+      "text": "Conteaza daca o ai, ai obligatia sa arhivezi XML-urile din SPV timp de 5 ani",
+      "thread_url": "https://www.reddit.com/r/RoFiscalitate2/comments/1tjb2fl/am_uitat_sa_descarc_factura_din_spv/",
+      "subreddit": "RoFiscalitate2",
+      "created_at": "2026-05-21T08:01:07.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.341Z",
+      "score_at_collection": 2
+    },
+    {
+      "evidence_id": "C069",
+      "text": "ma intereseaza sa imi tin si local copiile facturilor",
+      "thread_url": "https://www.reddit.com/r/RoFiscalitate2/comments/1nv9wx2/copie_factura_disponibila_doar_in_spv/",
+      "subreddit": "RoFiscalitate2",
+      "created_at": "2025-10-01T16:33:15.000Z",
+      "retrieved_at": "2026-08-28T16:12:04.916Z",
+      "score_at_collection": 2
+    },
+    {
+      "evidence_id": "C087",
+      "text": "ar trebui sa te intereseze sa-ti tii zipurile/xml/indexul de incarcare de e-factura care confirma ca s-a plimbat prin spv. orice pdf, xls sau hartie scanata e papetarie din pcuntul de vedere al anaf in caz ca vin sa-ti bata la usa. singura exceptie, bonurile fiscalizate cu valoare de factura simplificata (gen benzinarii).",
+      "thread_url": "https://www.reddit.com/r/RoFiscalitate2/comments/1nv9wx2/copie_factura_disponibila_doar_in_spv/",
+      "subreddit": "RoFiscalitate2",
+      "created_at": "2025-10-01T16:46:06.000Z",
+      "retrieved_at": "2026-08-28T16:12:04.916Z",
+      "score_at_collection": 1
+    },
+    {
+      "evidence_id": "C040",
+      "text": "hai sa te vad: ce fac daca nu vin toate facturile pe mail? poate o ai fizic sau poate o primesti pe alt mediu(whatsapp etc) si ce fac in aplicatie? doar la vad si stau eu sa le marchez ca platite? de ce nu as folosi fgo sau alte shpe aplicatii de genul care au vechime si integrari multiple?",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/",
+      "subreddit": "programare",
+      "created_at": "2026-06-28T17:29:44.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.945Z",
+      "score_at_collection": 1
+    },
+    {
+      "evidence_id": "C046",
+      "text": "Daca nu vin toate facturile pe mail, aplicatia are mai multe o optiuni, de la a uploada documentul (PDF) de exemplu manual si/sau chiar din whatsapp sau alt mediu de exemplu. Ideea este ca la fiecare sfarsit de luna e deobicei o intreaga corvoada in a gasi toate facturile lipsa de care este nevoie in contabilitatea unei firme de exemplu si se pierde timp manual pentru regasirea acestor facturi si aceasta aplicatie ar putea usura aceasta munca si il poate ajuta si pe contabil. Si daca aplicatia mea sa zicem ar avea toate facilitatile pe care fgo sau alte aplicatii de gen le au deja si are si asta in plus ? Ar putea fi un plus de exemplu.",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/",
+      "subreddit": "programare",
+      "created_at": "2026-06-28T17:42:58.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.945Z",
+      "score_at_collection": 1
+    },
+    {
+      "evidence_id": "C058",
+      "text": "cred ca ai lucrat (daca ai lucrat) nu ceva contabili incompetenti. eu nici macat nu trimit facturile, si le ia contabilii din efactura si doar daca ceva nu e acolo (ex: bon de benzina) ma intreaba, in rest nu trimit decat contracte daca e nevoie. imi ia fix 10 min sa inchei luna (si folosesc fgo unde au acces si contabilii - ai optiune ptr asta)",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/",
+      "subreddit": "programare",
+      "created_at": "2026-06-28T17:51:53.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.946Z",
+      "score_at_collection": 1
+    },
+    {
+      "evidence_id": "C054",
+      "text": "> caut toate facturile prin email pentru contabilitate E postare din 2026 ? Parca știam ca toate facturile sunt emise electronic pe SPV. De ce ai cauta prin email facturi ? De ce folosesti emailul societatii la servicii achizitionate pe persoana fizica. Nu înțeleg ce problema rezolva acest app.",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1r0si77/voi_cum_vă_strângeți_facturile_de_la_furnizorii/",
+      "subreddit": "programare",
+      "created_at": "2026-02-20T07:45:01.000Z",
+      "retrieved_at": "2026-08-28T16:12:05.344Z",
+      "score_at_collection": 2
+    },
+    {
+      "evidence_id": "C070",
+      "text": "Pentru ca-i mai comod, sau ai apucat sa ai anumite conturi, si chiar daca folosesti mail de business separat, it's still easier to gather them like this no? Nu vreau sa stau sa filtrez per luna etc. Apoi poate imi vin si alte atasamente, treceam lunar prin stres semnificativ, am salvat-o p-asta, n-am salvat-o p-asta etc.",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1r0si77/voi_cum_vă_strângeți_facturile_de_la_furnizorii/",
+      "subreddit": "programare",
+      "created_at": "2026-02-20T07:58:22.000Z",
+      "retrieved_at": "2026-08-28T16:12:05.344Z",
+      "score_at_collection": -1
+    },
+    {
+      "evidence_id": "C075",
+      "text": "Poți face un flow cu n8n legat la mailbox, sau dacă softul de facturare permite, direct la APIul lor.",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1r0si77/voi_cum_vă_strângeți_facturile_de_la_furnizorii/",
+      "subreddit": "programare",
+      "created_at": "2026-02-10T06:07:22.000Z",
+      "retrieved_at": "2026-08-28T16:12:05.344Z",
+      "score_at_collection": 1
+    },
+    {
+      "evidence_id": "C036",
+      "text": "Stai să înțeleg. Vrei să ne legăm mail-ul personal și/sau de firmă la aplicația asta care nici nu e pe play store și nu am auzit de ea în viața noastră? Sună a challenge de \"cum să te hack-ui singur\" în timp record.",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1r0si77/voi_cum_vă_strângeți_facturile_de_la_furnizorii/",
+      "subreddit": "programare",
+      "created_at": "2026-02-10T06:43:30.000Z",
+      "retrieved_at": "2026-08-28T16:12:05.344Z",
+      "score_at_collection": 3
+    },
+    {
+      "evidence_id": "C042",
+      "text": "Noted, need to up that trust. Am vrut gmailapi read, insa e nevoie de audit de 10K ceea ce pare mult pt. acum. :)",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1r0si77/voi_cum_vă_strângeți_facturile_de_la_furnizorii/",
+      "subreddit": "programare",
+      "created_at": "2026-02-10T09:09:21.000Z",
+      "retrieved_at": "2026-08-28T16:12:05.344Z",
+      "score_at_collection": 1
+    },
+    {
+      "evidence_id": "C079",
+      "text": "Eu mi-am facut pe instanta n8n proprie si imi duce direct in aplicatia erp, inregistreaza cheltuiala. Nu cred ca as da acces la contul meu de email la un tert, si nici sa aiba acces la cheltuielile mele. M-am uitat recent la o aplicatie \"vibe coding\" in cateva minute am vazut date care nu trebuiau sa fie publice. Aplicatia asta poate ar avea succes pentru contabili, trimite factura de cheltuieli direct la email poate gazduit de voi, iar contabilul sa aiba acces la date structurate pe care sa le importe, de obicei serviciile externalizate conta inseamna ca se opereaza Saga sau WinMentor.",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1r0si77/voi_cum_vă_strângeți_facturile_de_la_furnizorii/",
+      "subreddit": "programare",
+      "created_at": "2026-02-10T10:16:18.000Z",
+      "retrieved_at": "2026-08-28T16:12:05.344Z",
+      "score_at_collection": 1
+    },
+    {
+      "evidence_id": "C004",
+      "text": "N-as avea incredere in aplicatia unuia care stie asa, fara suparare.",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/",
+      "subreddit": "programare",
+      "created_at": "2026-06-28T15:48:55.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.945Z",
+      "score_at_collection": 19
+    },
+    {
+      "evidence_id": "C010",
+      "text": "De ce sa se conecteze la email sa extragă facturile? Facturile se extrag din efactura! :D",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/",
+      "subreddit": "programare",
+      "created_at": "2026-06-28T15:49:31.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.945Z",
+      "score_at_collection": 8
+    },
+    {
+      "evidence_id": "C098",
+      "text": "Ați*, fără spațiu între semnul de punctuație și ultimul cuvânt din propoziție, și nu, nu aș dori ca o aplicație să aiba acces la e-mail și dvs.* fiind o abreviere",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/",
+      "subreddit": "programare",
+      "created_at": "2026-06-28T15:42:29.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.946Z",
+      "score_at_collection": 0
+    },
+    {
+      "evidence_id": "C022",
+      "text": "A, da, asta da, categoric ar fi foarte folositor.",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/",
+      "subreddit": "programare",
+      "created_at": "2026-06-28T16:57:30.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.945Z",
+      "score_at_collection": 1
+    },
+    {
+      "evidence_id": "C030",
+      "text": "It's not using AI at all tho :).",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1r0si77/voi_cum_vă_strângeți_facturile_de_la_furnizorii/",
+      "subreddit": "programare",
+      "created_at": "2026-02-10T05:58:57.000Z",
+      "retrieved_at": "2026-08-28T16:12:05.344Z",
+      "score_at_collection": -6
+    },
+    {
+      "evidence_id": "C094",
+      "text": "La genul ăsta de aplicații primul pas e să vorbești măcar cu un contabil cu experiență, dacă nu cu mai mulți și să vezi ce nevoi au..",
+      "thread_url": "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/",
+      "subreddit": "programare",
+      "created_at": "2026-06-29T04:33:55.000Z",
+      "retrieved_at": "2026-08-28T16:12:03.946Z",
+      "score_at_collection": 1
+    }
+  ]
+}

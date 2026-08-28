@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "saas": {
+    "name": "ContaRom",
+    "website": "https://contarom.com/",
+    "audience": "Romanian small businesses and accounting firms handling invoices, SPV records, and monthly document exchange",
+    "capabilities": [
+      {
+        "name": "Automatic SPV retrieval and cloud archive",
+        "pain_name": "SPV invoices expire while businesses must keep the official archive",
+        "claim": "ContaRom downloads electronic invoices from SPV automatically and archives them securely in the cloud",
+        "source_url": "https://contarom.com/",
+        "retrieved_at": "2026-08-28T19:13:03+03:00",
+        "pain_signals": [
+          "arhiveze documentele contabile",
+          "dispare dupa 60 de zile",
+          "tine 60 de zile",
+          "arhivezi xml-urile",
+          "local copiile facturilor",
+          "zipurile/xml/indexul"
+        ],
+        "message_hypothesis": "Stop relying on memory before SPV documents expire. Retrieve and archive official invoice files automatically."
+      },
+      {
+        "name": "Unified document and accountant workspace",
+        "pain_name": "Month end document collection is a manual hunt across channels",
+        "claim": "ContaRom centralizes fiscal documents and direct messages between small businesses and accountants",
+        "source_url": "https://contarom.com/",
+        "retrieved_at": "2026-08-28T19:13:03+03:00",
+        "pain_signals": [
+          "facturile pe mail",
+          "facturile lipsa",
+          "se pierde timp manual",
+          "nu trimit facturile",
+          "facturile prin email",
+          "filtrez per luna",
+          "stres semnificativ",
+          "n8n legat la mailbox"
+        ],
+        "message_hypothesis": "Close the month without hunting through email and WhatsApp. Keep documents and accountant messages in one shared place."
+      },
+      {
+        "name": "Authorized SPV access without inbox scraping",
+        "pain_name": "Businesses do not trust invoice apps with inbox access",
+        "claim": "ContaRom uses authorized electronic signature access to SPV and provides secure communication inside the platform",
+        "source_url": "https://contarom.com/",
+        "retrieved_at": "2026-08-28T19:13:03+03:00",
+        "pain_signals": [
+          "mail-ul personal",
+          "gmailapi read",
+          "acces la contul meu de email",
+          "n-as avea incredere in aplicatia",
+          "se conecteze la email",
+          "acces la e-mail"
+        ],
+        "message_hypothesis": "Connect through authorized SPV access instead of inbox scraping, with clear permission boundaries."
+      }
+    ]
+  },
+  "research": {
+    "user": "A founder at ContaRom validating positioning for Romanian small businesses and accountants",
+    "question": "Which recurring pains in public Romanian Reddit comments are directly addressed by ContaRom?",
+    "snapshot_path": "demo/input/contarom/reddit-comments.json",
+    "output_path": "demo/output/reddit-pain-report.md",
+    "max_comments": 21,
+    "minimum_included_comments": 12,
+    "minimum_distinct_threads": 3,
+    "theme_minimum_comments": 3,
+    "theme_minimum_threads": 2,
+    "maximum_themes": 3
+  },
+  "apify": {
+    "actor_id": "TwqHBuZZPHJxiQrTU",
+    "actor_url": "https://apify.com/fatihtahta/reddit-scraper-search-fast",
+    "input": {
+      "urls": [
+        "https://www.reddit.com/r/RoFiscalitate2/comments/1tjb2fl/am_uitat_sa_descarc_factura_din_spv/",
+        "https://www.reddit.com/r/RoFiscalitate2/comments/1nv9wx2/copie_factura_disponibila_doar_in_spv/",
+        "https://www.reddit.com/r/RoFiscalitate2/comments/1q8380m/nu_merge_sa_bag_manual_factura_in_efactura/",
+        "https://www.reddit.com/r/Romania/comments/19ct5tw/inca_o_zi_in_care_siteul_anaf_afiseaza_frecvent/",
+        "https://www.reddit.com/r/programare/comments/1r0si77/voi_cum_va_strangeti_facturile_de_la_furnizorii/",
+        "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/"
+      ],
+      "scrapeComments": true,
+      "maxComments": 25,
+      "maxPosts": 1,
+      "includeNsfw": false,
+      "sentiment_analysis": false,
+      "content_analysis": false
+    }
+  }
+}

@@ -1,25 +1,25 @@
 {
   "schema_version": 1,
-  "saas_config_path": "demo/input/plausible/saas.json",
+  "saas_config_path": "demo/input/contarom/saas.json",
   "requested_output": "demo/output/evals/insufficient-evidence.md",
   "collection": {
     "status": "cached",
     "provider": "Apify",
     "actor_id": "TwqHBuZZPHJxiQrTU",
     "actor_url": "https://apify.com/fatihtahta/reddit-scraper-search-fast",
-    "retrieved_at": "2026-08-28T15:17:53.603Z",
+    "retrieved_at": "2026-08-28T16:12:16.552Z",
     "authors_removed": true
   },
   "comments": [
     {
       "evidence_id": "I01",
-      "thread_url": "https://www.reddit.com/r/webdev/comments/1sh05nv/i_stopped_using_google_analytics_for_a_small_app/",
-      "text": "Curious how you thought modifying casing would hide LLM prose?"
+      "thread_url": "https://www.reddit.com/r/programare/comments/1ui0gmp/aplicatie_web_si_mobila_pentru_contabilitate/",
+      "text": "A, da, asta da, categoric ar fi foarte folositor."
     },
     {
       "evidence_id": "I02",
-      "thread_url": "https://www.reddit.com/r/webdev/comments/1s8z4lw/alternatives_to_google_analytics/",
-      "text": "Posthog is the way to go."
+      "thread_url": "https://www.reddit.com/r/programare/comments/1r0si77/voi_cum_va_strangeti_facturile_de_la_furnizorii/",
+      "text": "It's not using AI at all tho :)."
     }
   ]
 }
