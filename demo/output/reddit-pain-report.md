@@ -1,8 +1,8 @@
 # Reddit pain signal report
 
-**SaaS:** ContaRom
+**SaaS:** contarom.com
 
-**Research user:** A founder at ContaRom validating positioning for Romanian small businesses and accountants
+**Research user:** A founder at contarom.com validating positioning for Romanian small businesses and accountants
 
 **Evidence:** cached sanitized Apify snapshot, retrieved 2026-08-28T16:12:16.552Z
 

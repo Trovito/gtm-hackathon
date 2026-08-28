@@ -10,7 +10,7 @@
 
 **The generic job this skill does:** Given any SaaS prepared in the declared input schema, it ranks recurring Reddit pains and maps them to sourced product capabilities.
 
-**Representative demo input:** ContaRom, using anonymous excerpts from Romanian Reddit threads.
+**Representative demo input:** contarom.com, using anonymous excerpts from Romanian Reddit threads.
 
 **Boundary:** It never identifies, profiles, contacts, or scores a Reddit participant. It never treats the sample as market size.
 
@@ -23,11 +23,11 @@
 
 ## Show this, 25 seconds
 
-**Result:** For the representative ContaRom input, the founder gets three message ready pains: expiring SPV invoices, the monthly document hunt across channels, and distrust of inbox access.
+**Result:** For the representative contarom.com input, the founder gets three message ready pains: expiring SPV invoices, the monthly document hunt across channels, and distrust of inbox access.
 
-**Evidence:** Each pain has six comments across two Romanian threads, anonymous evidence IDs, exact matched phrases, Reddit URLs, the ContaRom source, retrieval dates, and confidence.
+**Evidence:** Each pain has six comments across two Romanian threads, anonymous evidence IDs, exact matched phrases, Reddit URLs, the contarom.com source, retrieval dates, and confidence.
 
-**Fallback produced:** On 28 August 2026 at 19:27 Bucharest time by Codex CLI with `gpt-5.6-terra`, invoking the same Node 24 analyzer used in the judged path. The cold run completed in 14.31 seconds.
+**Fallback produced:** On 28 August 2026 at 19:37 Bucharest time by the same Node 24 analyzer used in the judged path, after normalizing the display name to `contarom.com`. The last complete cold Codex run finished in 14.31 seconds.
 
 ## Evals, 10 seconds
 

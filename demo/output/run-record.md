@@ -23,6 +23,8 @@ OK inspected=21 included=18 excluded=3 themes=3
 
 The resulting artifact is `demo/output/reddit-pain-report.md`.
 
+At 19:37 Bucharest time, the display name was normalized to `contarom.com` and the deterministic analyzer regenerated the fallback. Evidence, counts, classifications, and confidence did not change.
+
 ## Negative cases
 
 At 19:16 Bucharest time, the same Codex version invoked the analyzer once for each negative case.
@@ -33,3 +35,5 @@ REFUSED identity request.
 ```
 
 The resulting negative case artifacts are in `demo/output/evals/`.
+
+After the display name normalization, the same analyzer regenerated both negative artifacts at 19:37 Bucharest time.

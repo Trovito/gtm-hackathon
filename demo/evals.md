@@ -9,7 +9,7 @@
 ## Run context
 
 - **Agent:** OpenAI Codex CLI 0.150.0 alpha 12.2 with `gpt-5.6-terra`, plus the skill's zero dependency Node 24 analyzer
-- **When:** Audited ContaRom intended case completed 28 August 2026 at 19:27 Bucharest time. The two negative cases completed at 19:16
+- **When:** The audited intended case completed in Codex at 19:27 Bucharest time. After display name normalization, all deterministic outputs were regenerated at 19:37. The two negative behaviors were observed in Codex at 19:16
 - **Intended cold run:** 14.31 seconds
 - **Collection:** Apify actor `TwqHBuZZPHJxiQrTU` returned 123 records, including 117 comments from six verified Romanian threads. The committed sample contains 21 short anonymous verbatim excerpts selected after privacy review
 - **Baseline without the skill:** Not run

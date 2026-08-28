@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "saas": {
-    "name": "ContaRom",
+    "name": "contarom.com",
     "website": "https://contarom.com/",
     "audience": "Romanian small businesses and accounting firms handling invoices, SPV records, and monthly document exchange",
     "capabilities": [
       {
         "name": "Automatic SPV retrieval and cloud archive",
         "pain_name": "SPV invoices expire while businesses must keep the official archive",
-        "claim": "ContaRom downloads electronic invoices from SPV automatically and archives them securely in the cloud",
+        "claim": "contarom.com downloads electronic invoices from SPV automatically and archives them securely in the cloud",
         "source_url": "https://contarom.com/",
         "retrieved_at": "2026-08-28T19:13:03+03:00",
         "pain_signals": [
@@ -24,7 +24,7 @@
       {
         "name": "Unified document and accountant workspace",
         "pain_name": "Month end document collection is a manual hunt across channels",
-        "claim": "ContaRom centralizes fiscal documents and direct messages between small businesses and accountants",
+        "claim": "contarom.com centralizes fiscal documents and direct messages between small businesses and accountants",
         "source_url": "https://contarom.com/",
         "retrieved_at": "2026-08-28T19:13:03+03:00",
         "pain_signals": [
@@ -42,7 +42,7 @@
       {
         "name": "Authorized SPV access without inbox scraping",
         "pain_name": "Businesses do not trust invoice apps with inbox access",
-        "claim": "ContaRom uses authorized electronic signature access to SPV and provides secure communication inside the platform",
+        "claim": "contarom.com uses authorized electronic signature access to SPV and provides secure communication inside the platform",
         "source_url": "https://contarom.com/",
         "retrieved_at": "2026-08-28T19:13:03+03:00",
         "pain_signals": [
@@ -58,8 +58,8 @@
     ]
   },
   "research": {
-    "user": "A founder at ContaRom validating positioning for Romanian small businesses and accountants",
-    "question": "Which recurring pains in public Romanian Reddit comments are directly addressed by ContaRom?",
+    "user": "A founder at contarom.com validating positioning for Romanian small businesses and accountants",
+    "question": "Which recurring pains in public Romanian Reddit comments are directly addressed by contarom.com?",
     "domain_disclaimer": "Reddit statements about Romanian tax obligations and retention periods were not independently verified and are not legal advice.",
     "snapshot_path": "demo/input/contarom/reddit-comments.json",
     "output_path": "demo/output/reddit-pain-report.md",
