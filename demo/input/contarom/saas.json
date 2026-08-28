@@ -60,6 +60,7 @@
   "research": {
     "user": "A founder at ContaRom validating positioning for Romanian small businesses and accountants",
     "question": "Which recurring pains in public Romanian Reddit comments are directly addressed by ContaRom?",
+    "domain_disclaimer": "Reddit statements about Romanian tax obligations and retention periods were not independently verified and are not legal advice.",
     "snapshot_path": "demo/input/contarom/reddit-comments.json",
     "output_path": "demo/output/reddit-pain-report.md",
     "max_comments": 21,

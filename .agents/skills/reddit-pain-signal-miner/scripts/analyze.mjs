@@ -280,7 +280,7 @@ ${evidenceParagraphs.join("\n\n")}
 
 Excluded ${excluded.length} records with no supported pain phrase: ${excludedIds}. No identity fields were present.
 
-This selected cached sample does not represent all customers or Reddit. Phrase matching can miss paraphrases. Product mappings use the supplied official claims and do not prove purchase intent or market size.`
+This selected cached sample does not represent all customers or Reddit. Phrase matching can miss paraphrases. Product mappings use the supplied official claims and do not prove purchase intent or market size.${research.domain_disclaimer ? `\n\n${research.domain_disclaimer}` : ""}`
 
   await writeOutput(outputPath, report)
   console.log(

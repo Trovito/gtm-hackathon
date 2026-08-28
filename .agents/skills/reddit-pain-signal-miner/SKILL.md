@@ -22,6 +22,7 @@ Use the input directory named in the prompt. It must contain `saas.json` with so
 2. Never contact, score, or profile a Reddit participant.
 3. Never describe cached evidence as live or representative of the market.
 4. Never alter the analyzer counts, sources, classifications, or confidence.
+5. Never convert a Reddit statement into legal, financial, or compliance advice.
 
 ## Done when
 

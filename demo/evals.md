@@ -9,7 +9,7 @@
 ## Run context
 
 - **Agent:** OpenAI Codex CLI 0.150.0 alpha 12.2 with `gpt-5.6-terra`, plus the skill's zero dependency Node 24 analyzer
-- **When:** ContaRom intended case completed 28 August 2026 at 19:14 Bucharest time. The two negative cases completed at 19:16
-- **Intended cold run:** 11.88 seconds
-- **Collection:** Apify actor `TwqHBuZZPHJxiQrTU` returned 123 records, including 117 comments from six verified Romanian threads. The committed sample contains 21 anonymous comments selected after privacy review
+- **When:** Audited ContaRom intended case completed 28 August 2026 at 19:27 Bucharest time. The two negative cases completed at 19:16
+- **Intended cold run:** 14.31 seconds
+- **Collection:** Apify actor `TwqHBuZZPHJxiQrTU` returned 123 records, including 117 comments from six verified Romanian threads. The committed sample contains 21 short anonymous verbatim excerpts selected after privacy review
 - **Baseline without the skill:** Not run

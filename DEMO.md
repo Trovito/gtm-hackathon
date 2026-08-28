@@ -25,7 +25,7 @@
 
 **Evidence:** Each pain has six comments across two Romanian threads, anonymous evidence IDs, exact matched phrases, Reddit URLs, the ContaRom source, retrieval dates, and confidence.
 
-**Fallback produced:** On 28 August 2026 at 19:14 Bucharest time by Codex CLI with `gpt-5.6-terra`, invoking the same Node 24 analyzer used in the live path. The cold run completed in 11.88 seconds.
+**Fallback produced:** On 28 August 2026 at 19:27 Bucharest time by Codex CLI with `gpt-5.6-terra`, invoking the same Node 24 analyzer used in the judged path. The cold run completed in 14.31 seconds.
 
 ## Evals, 10 seconds
 

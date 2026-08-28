@@ -6,13 +6,13 @@ On 28 August 2026, Apify actor `TwqHBuZZPHJxiQrTU` ran against the six verified 
 
 The actor returned 123 records, including 117 comments. The zero dependency collector removed author fields, profile fields, contact patterns, deleted content, bot content, duplicate content, and oversized comments. A manual privacy review completed at 19:14 Bucharest time.
 
-The committed demo input contains 21 anonymous comments. Eighteen support three pains across independent threads and three are contrast records that should be excluded. The raw actor dataset is not committed.
+The committed demo input contains 21 short anonymous verbatim excerpts. Eighteen support three pains across independent threads and three are contrast records that should be excluded. Full comments and the raw actor dataset are not committed.
 
 ## Intended run
 
-At 19:14 Bucharest time, OpenAI Codex CLI 0.150.0 alpha 12.2 with `gpt-5.6-terra` received `demo/seed-prompt.md`.
+At 19:27 Bucharest time, OpenAI Codex CLI 0.150.0 alpha 12.2 with `gpt-5.6-terra` received `demo/seed-prompt.md`.
 
-The cold run completed in 11.88 seconds and invoked the analyzer exactly once. It used only committed local input and made no network or Apify call.
+The cold run completed in 14.31 seconds and invoked the analyzer exactly once. It used only committed local input and made no network or Apify call.
 
 ```text
 OK inspected=21 included=18 excluded=3 themes=3

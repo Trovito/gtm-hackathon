@@ -33,7 +33,7 @@ Rank | Pain | Support | SaaS capability | Confidence
 
 1. **SPV invoices expire while businesses must keep the official archive.** C015, C027, C033, C051, C069, C087. Examples: “arhiveze documentele contabile” (C015), “dispare dupa 60 de zile” (C027), “tine 60 de zile” (C033), “arhivezi XML-urile” (C051), “local copiile facturilor” (C069), “zipurile/xml/indexul” (C087). The mapping is supported by [Automatic SPV retrieval and cloud archive](https://contarom.com/). Message hypothesis: Stop relying on memory before SPV documents expire. Retrieve and archive official invoice files automatically.
 
-2. **Month end document collection is a manual hunt across channels.** C040, C046, C058, C054, C070, C075. Examples: “facturile pe mail” (C040), “facturile pe mail” (C046), “nu trimit facturile” (C058), “facturile prin email” (C054), “filtrez per luna” (C070), “n8n legat la mailbox” (C075). The mapping is supported by [Unified document and accountant workspace](https://contarom.com/). Message hypothesis: Close the month without hunting through email and WhatsApp. Keep documents and accountant messages in one shared place.
+2. **Month end document collection is a manual hunt across channels.** C040, C046, C058, C054, C070, C075. Examples: “facturile pe mail” (C040), “facturile lipsa” (C046), “nu trimit facturile” (C058), “facturile prin email” (C054), “filtrez per luna” (C070), “n8n legat la mailbox” (C075). The mapping is supported by [Unified document and accountant workspace](https://contarom.com/). Message hypothesis: Close the month without hunting through email and WhatsApp. Keep documents and accountant messages in one shared place.
 
 3. **Businesses do not trust invoice apps with inbox access.** C036, C042, C079, C004, C010, C098. Examples: “mail-ul personal” (C036), “gmailapi read” (C042), “acces la contul meu de email” (C079), “N-as avea incredere in aplicatia” (C004), “se conecteze la email” (C010), “acces la e-mail” (C098). The mapping is supported by [Authorized SPV access without inbox scraping](https://contarom.com/). Message hypothesis: Connect through authorized SPV access instead of inbox scraping, with clear permission boundaries.
 
@@ -42,3 +42,5 @@ Rank | Pain | Support | SaaS capability | Confidence
 Excluded 3 records with no supported pain phrase: C022, C030, C094. No identity fields were present.
 
 This selected cached sample does not represent all customers or Reddit. Phrase matching can miss paraphrases. Product mappings use the supplied official claims and do not prove purchase intent or market size.
+
+Reddit statements about Romanian tax obligations and retention periods were not independently verified and are not legal advice.
